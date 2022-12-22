@@ -86,7 +86,10 @@ h3{
     background-image: url('./assets/dasdasdasdaew-of-new-york-city-usa-_1_\ \(1\).webp');
     border-radius: 0px 0px 20px 20px;
 }
-
+#hero > .column-hero > img{
+    width: 200px;
+    margin-bottom: 20px;
+}
 .column-hero{
     max-width: 580px;
 }
@@ -325,6 +328,10 @@ footer >.container >.row img{
     main {
         overflow-x: hidden !important;
     }
+    .column-hero{
+        margin-top: 10px;
+        max-width: 300px;
+    }
     
     #internal-t-s > img{
         width: 290px;
@@ -433,5 +440,8 @@ footer >.container >.row img{
     body > div > main > footer > container > row > img{
         width:60px !important;
     }
-    
+    #hero > .column-hero > img{
+        width: 150px;
+        margin-bottom: 20px;
+    }
 }
