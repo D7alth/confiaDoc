@@ -316,14 +316,18 @@ footer > .container > .row{
 
 }
 footer >.container >.row img{
-    width: 280px;
+    width: 200px;
 }
 
 /*Mobile*/
 
 @media screen and (max-width: 768px){
+    main {
+        overflow-x: hidden !important;
+    }
+    
     #internal-t-s > img{
-        width: 300px;
+        width: 290px;
     }
     #internal-t-s > .row{
         display: flex;
@@ -349,32 +353,29 @@ footer >.container >.row img{
         font-size: 28px;
     }
     #hero > div > h2{
-        font-size: 14px;
+        font-size: 12px !important;
     }
     #hero > div > a > button{
-        font-size: 14px;
+        font-size: 12px !important;
     }
     #hero{
         height: 50vh;
     }
     #t-s > div > h1{
-        font-size: 28px;
+        font-size: 18px !important;
     }
     #t-s > div > h2{
-        font-size: 14px;
+        font-size: 13px !important;
     }
     #four-s > div > h1{
-        font-size: 28px;
+        font-size: 18px !important;
     }
     #four-s > div > h2{
-        font-size: 14px;
+        font-size: 13px !important;
     }
     #internal-t-s > div > .card-t-s-fiv{
         width: 200px;
-        height: 300px;
-    }
-    #s-s{
-        padding:10px
+        height: 50px;
     }
     #s-s > .row{
         display: flex;
@@ -385,17 +386,52 @@ footer >.container >.row img{
         margin-right: 0px;
     }
     #s-s > div > div.column-left-fiv > img{
-        height: 200px;
+        height: 120px;
     }
     #s-s > div > div.column-right-fiv{
         max-width: 100%;
         margin-left: 0px;
         margin-top: 20px;
+        padding:0px;
     }
     #s-s > div > div.column-right-fiv > ul > li > h3{
-        font-size: 16px;
+        font-size: 13px !important;
     }
     #s-s > div > div.column-right-fiv > ul > p{
-        font-size: 14px;
+        font-size: 12px !important;
     }
+    #f-s > div > div.column-right > p{
+        font-size: 11px !important;
+        width: 250px;
+    }
+    #internal-t-s > div > .card-t-s-fiv > p{
+        font-size: 14px !important;
+    }
+    #internal-t-s > div > .card-t-s-fiv > i{
+        font-size: 16px;
+    }
+    #s-s > div > div.column-left-fiv > h1{
+        font-size: 18px;
+    }
+    #s-s > div > div.column-right-fiv > ul{
+        width: 250px;
+        margin-bottom: 20px;
+
+    }
+    #internal-t-s > div > .card-four-s > p{
+        font-size:14px;
+    }
+    #internal-t-s > div > .card-four-s {
+        height: 50px !important;
+    }
+    #four-s > div > h2{
+        width: 200px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    body > div > main > footer > container > row > img{
+        width:60px !important;
+    }
+    
 }
