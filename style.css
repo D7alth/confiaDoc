@@ -1,0 +1,401 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,800;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+/*Animações*/
+@keyframes anim{
+    0%, 100% {
+        -webkit-transform:translateY(-5px);
+        transform:translate(-5px);
+    }
+    50%{
+        -webkit-transform:translateY(5px);transform: translateY(5px);
+    }
+}
+.motionTyx{
+    animation-name:anim;
+    animation-duration:5s;
+    animation-iteration-count:infinite;
+}
+.growSacle{
+    transition: 0.3s all ease;
+}
+.growSacle:hover{
+    transform: scale(1.2);
+}
+
+/*fim das animações*/
+
+/*rests*/
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    background-color: #F1FCE6;
+}
+
+/*fim dos rests*/
+
+/*padrões*/
+
+section{
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top:40px;
+    padding-bottom: 40px;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    color: #3E3E3E;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;   
+    font-size:2rem;
+}
+h2{
+    font-size: 1.5rem;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+     margin-bottom: 20px;
+}
+
+h3{
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    color:#F1FCE6;
+}
+
+/*Fim*/
+/*components*/
+
+
+#hero{
+    min-height: 80vh;
+    background-image: url('./assets/dasdasdasdaew-of-new-york-city-usa-_1_\ \(1\).webp');
+    border-radius: 0px 0px 20px 20px;
+}
+
+.column-hero{
+    max-width: 580px;
+}
+.column-hero h1 {
+    font-size: 4rem;
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;   
+    color:white; 
+}
+.column-hero h2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;   
+    color:white;
+    margin-bottom: 20px;
+}
+.column-hero button{
+    padding: 12px 40px 12px 40px;
+    border-radius: 4px;
+    background-color: #30BA00;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;   
+    color:white;
+    font-weight: 600;
+    box-shadow: 0px 0px 23px rgba(48, 186, 0, 0.38);
+    border: none;
+    cursor: pointer;
+}
+
+
+
+#f-s > .row{
+    margin-top: 20px;
+    max-width: 1100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 0px;
+}
+.column-left{
+    min-width: 34%;
+    
+}
+.column-left img{
+    width: 66%;
+}
+.column-right{
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card p:nth-child(1){
+    padding: 12px 30px 18px 30px;
+    max-width: 230px;
+    background:#FFFFFF78;
+    margin-top:-200px;
+    border-radius: 10px;
+    font-size:15px;
+    backdrop-filter: blur(5px);
+}
+.card p:nth-child(2){
+    padding: 12px 30px 18px 30px;
+    max-width: 230px;
+    background:#FFFFFF78;
+    margin-top:20px;
+    border-radius: 10px;
+    font-size:15px;
+    backdrop-filter: blur(5px);
+}
+.card p:nth-child(3){
+    padding: 12px 10px 18px 10px;
+    max-width: 270px;
+    background:#FFFFFF78;
+    margin-top:20px;
+    border-radius: 10px;
+    font-size:15px;
+    backdrop-filter: blur(5px);
+}
+#column-t-s{
+    display: flex;
+    justify-content: center;
+}
+#internal-t-s {
+    flex-direction: column;
+    padding-top:0px;
+    padding-bottom: 0px;
+}
+#t-s img{
+    width: 800px;
+}
+.column-t-s h2{
+   color:#3E3E3E;
+   font-size: 1.5rem;
+   font-weight: 300;
+   font-family: 'Montserrat', sans-serif;
+   margin-bottom: 20px;
+}
+.column-t-s h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    color:#3E3E3E;
+}
+#internal-t-s > .row{
+    display:flex; 
+    justify-content: space-between;
+    align-items:center;
+    flex-direction: row;
+}
+.column-four-s h1{
+    color: white;
+}
+.column-four-s h2{
+    color: white;
+}
+
+.card-t-s{
+    padding: 20px;
+    height: 80px;
+    width: 200px;
+    background:#FFFFFF78;
+    margin:0px 10px 10px 0px;
+    border-radius: 10px;
+    font-size:1rem;
+    font-weight: 400;
+    justify-content: center;
+    align-items: center;
+
+    backdrop-filter: blur(5px);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.116);
+}
+
+
+#four-s{
+    margin-top: 20px;
+    padding-top:20px;
+    padding-bottom: 20px;
+    background-color: #30BA00;
+    border-radius: 20px 20px 20px 20px;
+}
+.card-four-s{
+    padding: 20px;
+    height: 80px;
+    width: 200px;
+    background:#FFFFFF78;
+    margin:0px 10px 10px 0px;
+    border-radius: 10px;
+    font-size:1rem;
+    font-weight: 400;
+    justify-content: center;
+    align-items: center;
+
+    backdrop-filter: blur(5px);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.116);
+}
+
+.s-s-dark{
+    border-radius: 20px 20px 0px 0px;
+    background-color: #016733;
+}
+#s-s > .row{
+    margin-top: 20px;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 0px;
+}
+.column-left-fiv img{
+    max-width: 100%;
+    height: 480px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.column-left-fiv h1{
+    color:#F1FCE6;
+    text-align: start;
+    margin-bottom: 20px;
+}
+.column-left-fiv{
+    max-width: 30%;
+    margin-right: 30px;
+}
+.column-right-fiv{
+    max-width: 70%;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:20px; 
+}
+.column-right-fiv p{
+    color:white;
+}
+
+
+.card-t-s-fiv{
+    padding: 20px;
+    width: 300px;
+    min-height: 200px;
+    background:#FFFFFF78;
+    margin:0px 10px 10px 0px;
+    border-radius: 10px;
+    font-size:1rem;
+    font-weight: 400;
+    justify-content: center;
+    align-items: center;
+
+    backdrop-filter: blur(5px);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.116);
+}
+.list-beneficios{
+    color:#F1FCE6;
+}
+footer{
+    background-color: white;
+    padding: 20px;
+}
+footer > .container > .row{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+footer >.container >.row img{
+    width: 280px;
+}
+
+/*Mobile*/
+
+@media screen and (max-width: 768px){
+    #internal-t-s > img{
+        width: 300px;
+    }
+    #internal-t-s > .row{
+        display: flex;
+        flex-direction: column;
+    }
+    #f-s > .row{
+        display: flex;
+        flex-direction: column;
+    }
+    #f-s > div > div.column-left{
+        margin-bottom: 30px;
+    }
+    #f-s > div > div.column-left > div > p{
+        font-size:11px;
+    }
+    #f-s{
+        padding:10px
+    }
+    #f-s > div > div.column-left > div > p{
+        width: 180px;
+    }
+    #hero > div > h1{
+        font-size: 28px;
+    }
+    #hero > div > h2{
+        font-size: 14px;
+    }
+    #hero > div > a > button{
+        font-size: 14px;
+    }
+    #hero{
+        height: 50vh;
+    }
+    #t-s > div > h1{
+        font-size: 28px;
+    }
+    #t-s > div > h2{
+        font-size: 14px;
+    }
+    #four-s > div > h1{
+        font-size: 28px;
+    }
+    #four-s > div > h2{
+        font-size: 14px;
+    }
+    #internal-t-s > div > .card-t-s-fiv{
+        width: 200px;
+        height: 300px;
+    }
+    #s-s{
+        padding:10px
+    }
+    #s-s > .row{
+        display: flex;
+        flex-direction: column;
+    }
+    .column-left-fiv{
+        max-width: 100%;
+        margin-right: 0px;
+    }
+    #s-s > div > div.column-left-fiv > img{
+        height: 200px;
+    }
+    #s-s > div > div.column-right-fiv{
+        max-width: 100%;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    #s-s > div > div.column-right-fiv > ul > li > h3{
+        font-size: 16px;
+    }
+    #s-s > div > div.column-right-fiv > ul > p{
+        font-size: 14px;
+    }
+}
