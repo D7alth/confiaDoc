@@ -76,7 +76,10 @@ h3{
     font-family: 'Montserrat', sans-serif;
     color:#F1FCE6;
 }
-
+i{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
 /*Fim*/
 /*components*/
 
@@ -291,7 +294,7 @@ h3{
 .card-t-s-fiv{
     padding: 20px;
     width: 300px;
-    min-height: 200px;
+    min-height: 220px;
     background:#FFFFFF78;
     margin:0px 10px 10px 0px;
     border-radius: 10px;
@@ -321,7 +324,25 @@ footer > .container > .row{
 footer >.container >.row img{
     width: 200px;
 }
+.fas.fa-light.fa-building-columns {
+    font-size: 40px;
 
+}
+.fas.fa-light.fa-file-word {
+    font-size: 40px;
+}
+.fas.fa-light.fa-person-walking {
+    font-size: 40px;
+}
+.fas.fa-light.fa-handshake {
+    font-size: 40px;
+}
+.fas.fa-light.fa-folder{
+    font-size: 40px;
+}
+.btn-2.growSacle {
+    margin-top: 20px;
+}  
 /*Mobile*/
 
 @media screen and (max-width: 768px){
@@ -382,7 +403,7 @@ footer >.container >.row img{
     }
     #internal-t-s > div > .card-t-s-fiv{
         width: 200px;
-        height: 50px;
+        height: 220px;
     }
     #s-s > .row{
         display: flex;
@@ -415,7 +436,7 @@ footer >.container >.row img{
         font-size: 14px !important;
     }
     #internal-t-s > div > .card-t-s-fiv > i{
-        font-size: 16px;
+        font-size: 26px;
     }
     #s-s > div > div.column-left-fiv > h1{
         font-size: 18px;
@@ -429,7 +450,7 @@ footer >.container >.row img{
         font-size:14px;
     }
     #internal-t-s > div > .card-four-s {
-        height: 50px !important;
+        height: 70px !important;
     }
     #four-s > div > h2{
         width: 200px;
@@ -444,4 +465,21 @@ footer >.container >.row img{
         width: 150px;
         margin-bottom: 20px;
     }
+    .fas.fa-light.fa-building-columns {
+        font-size: 30px;
+    
+    }
+    .fas.fa-light.fa-file-word {
+        font-size: 30px;
+    }
+    .fas.fa-light.fa-person-walking {
+        font-size: 30px;
+    }
+    .fas.fa-light.fa-handshake {
+        font-size: 30px;
+    }
+    .fas.fa-light.fa-folder{
+        font-size: 30px;
+    }
+
 }
