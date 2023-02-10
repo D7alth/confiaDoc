@@ -457,6 +457,7 @@ footer >.container >.row img{
         text-align: center;
         align-items: center;
         justify-content: center;
+        
     }
     body > div > main > footer > container > row > img{
         width:60px !important;
